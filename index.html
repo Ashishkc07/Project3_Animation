@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>OhMyFood</title>
+
+    <meta charset="utf-8">
+    <meta name="description" Content="Ohmyfood - Restaurant Browser & Booking App">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/styles_home.css" type="text/css" rel="stylesheet">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/2b9af1b176.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="loader">
+        <span class="loader__icon"></span>
+    </div>
+    <!--Navigation-->
+    <nav>
+        <div class="navlogosection">
+            <a class="logo" href="#"><h1>ohmyfood</h1></a>
+        </div>
+        <div class="navlocation">
+            
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="locationtext">Paris, Belleville</p>
+            
+        </div>
+    </nav>
+
+    <!--header-->
+    <header>
+        <img class="hero__image" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="food photography">
+        <div class="hero__contentContainer">
+
+            <!--call to action card-->
+            <div class="cta">
+                <div class="cta__content-wrapper">
+                    <h2 class="heading">Book the menu you like</h2>
+                    <h2 class="p">Discover top-of-the-art restaurants we picked for you</h2>
+                    <div>
+                        <button type=button class="button__global">
+                            <span class="button__text">Explore Our Restaurants</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--How it works, section-->
+            <div class="howitworks">
+                <h2 class="howitworks__title">How It Works</h2>
+                <div class="howitworks__buttonsectionwrapper">
+                    <!--button1-->
+                    <div class="howitworks__buttonwrapper">
+                        <button type=button class="howitworks__button"> <!--replace text styling, for cards 1,2,3 of this section-->
+                            <span class="howitworks__number">1</span>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span class="howitworks__buttontext">choose a restaurant</span>
+                        </button>
+                    </div>
+                    <!--button2-->
+                    <div class="howitworks__buttonwrapper">
+                        <button type=button class="howitworks__button">
+                            <span class="howitworks__number">2</span>
+                            <i class="fa-solid fa-list-ul"></i>
+                            <span class="howitworks__buttontext">create your menu</span>
+                        </button>
+                    </div>
+                    <!--button3-->
+                    <div class="howitworks__buttonwrapper">
+                        <button type=button class="howitworks__button">
+                            <span class="howitworks__number">3</span>
+                            <i class="fa-solid fa-store"></i>
+                            <span class="howitworks__buttontext">enjoy at the restaurant</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--restaurants section-->
+    <div class="restaurants">
+        <h2 class="restaurants__title">Restaurants</h2>
+        <div class="restaurantscard__wrapper">
+            
+            <!-- restaurant cards1-->
+            <div class="restaurantscard">
+                <span>
+                    <a href="fullpallette-restaurantpage.html">
+                    <img class="restaurantscard__image" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant food plated by Full Pallette">
+                    </a>
+                </span>
+                <div class="restaurantscard__info">
+                    <div>
+                        <a href="fullpallette-restaurantpage.html">
+                        <h2>The full Pallette</h2>
+                        <h3>New York</h3>
+                        </a>
+                    </div>
+                    <span class="heart-button__wrapper">
+                        <input type="checkbox" class="heart-button">
+                        <label class="fa-regular fa-heart"></label>
+                        <label class="fa-solid fa-heart"></label>
+                    </span>
+                </div>
+            </div>
+
+            <!-- restaurant cards2-->
+            <div class="restaurantscard">
+                <span>
+                    <a href="enchantedplate-restaurantpage.html">
+                    <img class="restaurantscard__image" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="restaurant food plated by Enchanted Plate">
+                    </a>
+                </span>
+                <div class="restaurantscard__info">
+                    <div>
+                        <a href="enchantedplate-restaurantpage.html">
+                        <h2>The Enchanted Plate</h2>
+                        <h3>New York</h3>
+                        </a>
+                    </div>
+                    <span class="heart-button__wrapper">
+                        <input type="checkbox" class="heart-button">
+                        <label class="fa-regular fa-heart"></label>
+                        <label class="fa-solid fa-heart"></label>
+                    </span>
+                </div>
+            </div>
+        
+            <!-- restaurant cards3-->
+           
+            <div class="restaurantscard"> 
+                <span>
+                    <a href="bastille-restaurantpage.html">
+                    <img class="restaurantscard__image" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="beutifully presented meal">
+                    </a>
+                </span>
+                <div class="restaurantscard__info">
+                    <div>
+                        <a href="bastille-restaurantpage.html">
+                        <h2>Bastille</h2>
+                        <h3>New York</h3>
+                        </a>
+                    </div>
+                    <span class="heart-button__wrapper">
+                        <input type="checkbox" class="heart-button">
+                        <label class="fa-regular fa-heart"></label>
+                        <label class="fa-solid fa-heart"></label>
+                    </span>
+                </div>
+            </div>
+
+            <!-- restaurant cards4-->
+            <div class="restaurantscard">
+                <span>
+                    <a href="legourmand-restaurantpage.html">
+                    <img class="restaurantscard__image" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant food plated by le gourmand">
+                    </a>
+                </span>
+                <div class="restaurantscard__info">
+                    <div>
+                        <a href="legourmand-restaurantpage.html">
+                        <h2>Le Gourmand</h2>
+                        <h3>New York</h3>
+                        </a>
+                    </div>
+                    <span class="heart-button__wrapper">
+                        <input type="checkbox" class="heart-button">
+                        <label class="fa-regular fa-heart"></label>
+                        <label class="fa-solid fa-heart"></label>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__logo">
+           <a href="#">ohmyfood</a>
+        </div>
+        <ul class="fa-ul">
+            <li class="li__with-icon"><span class="fa-li"><i class="fa-solid fa-utensils"></i></span><a href="#">Suggest a Restaurant</a></li>
+            <li class="li__with-icon"><span class="fa-li"><i class="fa-solid fa-handshake-angle"></i></span><a href="#">Become a Partner</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
